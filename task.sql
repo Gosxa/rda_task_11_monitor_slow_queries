@@ -1,36 +1,37 @@
---select * from Products1 where Name = "AwersomeProduct42";
---# Time: 2025-08-24T16:31:18.808531Z
--- # User@Host: username[username] @ localhost []  Id:     8
--- # Query_time: 0.000175  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
--- SET timestamp=1756053078;
--- select * from Products1 where Name = "AwersomeProduct42";
--- # Time: 2025-08-24T16:31:19.261473Z
--- # User@Host: username[username] @ localhost []  Id:     8
--- # Query_time: 0.000179  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
--- SET timestamp=1756053079;
--- select * from Products1 where Name = "AwersomeProduct42";
--- # Time: 2025-08-24T16:31:22.410984Z
--- # User@Host: username[username] @ localhost []  Id:     8
--- # Query_time: 0.000260  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
--- SET timestamp=1756053082;
+/* select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:18.808531Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000175  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053078;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:19.261473Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000179  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053079;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:22.410984Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000260  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053082;
 
 
 
---select * from Products2 where Name = "AwersomeProduct42";
---# Time: 2025-08-24T16:31:22.860143Z
---# User@Host: username[username] @ localhost []  Id:     8
---# Query_time: 0.000257  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
---SET timestamp=1756053082;
---select * from Products2 where Name = "AwersomeProduct42";
---# Time: 2025-08-24T16:31:23.269102Z
---# User@Host: username[username] @ localhost []  Id:     8
---# Query_time: 0.000262  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
---SET timestamp=1756053083;
---select * from Products2 where Name = "AwersomeProduct42";
---# Time: 2025-08-24T16:31:23.749588Z
---# User@Host: username[username] @ localhost []  Id:     8
---# Query_time: 0.000249  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
---SET timestamp=1756053083;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:22.860143Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000257  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053082;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:23.269102Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000262  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053083;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-08-24T16:31:23.749588Z
+# User@Host: username[username] @ localhost []  Id:     8
+# Query_time: 0.000249  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1756053083;
+*/
 
 create database ShopDB; 
 
